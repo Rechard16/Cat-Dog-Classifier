@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Cat-Rabbit-Classifier.iml" filepath="$PROJECT_DIR$/.idea/Cat-Rabbit-Classifier.iml" />
+      <module fileurl="file://$USER_HOME$/DataspellProjects/dsProject/.idea/dsProject.iml" filepath="$USER_HOME$/DataspellProjects/dsProject/.idea/dsProject.iml" />
     </modules>
   </component>
 </project>
