@@ -1,2 +1,2 @@
 # Cat-Rabbit-Classifier
-Through the photo, to claasify whether is more likely to be cat or rabbit. We used CNN network. We also applied the HOG model to the code.
+Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'rabbit' categories. We used CNN network. We also applied the HOG model to the code.
