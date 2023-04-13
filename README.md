@@ -48,7 +48,7 @@ Just run the**`KNN.ipynb`** ,similar result will be shown.
 
 
 
-Before trying other methods except KNN, please run the **`Get array and label.ipynb`**   to Generate the files including **`X`,`y`,`X_train`,`y_train`,`X_test`,`y_test ` **.
+Before trying other methods except KNN, please run the **`Get array and label.ipynb`**   to Generate the files including **`X`,`y`,`X_train`,`y_train`,`X_test`,`y_test`**.
 
 ### HOG+SVM
 
