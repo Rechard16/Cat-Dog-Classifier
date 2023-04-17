@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'rabbit' categories. We used CNN network. We also applied the HOG model to the code.
+Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories. We used machine learning techniques such as KNN and HOG.
 
 
 
@@ -10,15 +10,15 @@ Through image recognition of the image dataset, we hope to use Convolution Neura
 
 
 
-## EDA & Pre-process
+## EDA (Pre-processing)
 
-### clean data
+### 1) Data-cleansing
 
 Removed some abnormal data, including irrelevant data and misclassified data.
 
-### photo size analysis
+### 2) Analysis of the size of photos and deciding how to best resize them
 
-Then, we analyzed the size of pictures.
+We analysed the size of pictures.
 
 <img src="/mdpic/size_distribution_cat.png" alt="cat1" style="zoom:50%;" />
 
@@ -34,19 +34,19 @@ dog height and weight distribution
 
 <img src="/mdpic/weight_height_dog.png" alt="weight_height_dog" style="zoom:50%;" />
 
- dog height and weight scatter plot
+dog height and weight scatter plot
 
-We cut the photos into size of 128*128 for decreasing computing difficulty and reserving enough information of previous photo.
+We cropped the photos into size of 128*128 so that we can reduce the computing difficulty while preserving essential information of the previous photo file.
 
-### Data skew
+### Data skewness
 
-We have 22497 cat pictures and  22786 dog pictures, only has a 1.2% difference. 
+We have 22497 cat pictures and  22786 dog pictures, which only have a 1.2% difference between them. 
 
-So it is not necessary to process class imbalance.
+Thus, it is not necessary to process class imbalance.
 
-### Random choose to recheck
+### Random selection of photos for checking
 
-We randomly choose 20 photos from each category ,to check whether our process has a bad influence on previous data set.
+We then randomly chose 20 photos from each category to check if our process has badly influenced our raw data set.
 
 #### Cat
 
@@ -60,6 +60,8 @@ We randomly choose 20 photos from each category ,to check whether our process ha
 
 ## Methodology
 
+Machine learning techniques used.
+
 [Methodology Document](/methodology.md)
 
 
@@ -67,6 +69,8 @@ We randomly choose 20 photos from each category ,to check whether our process ha
 ---
 
 ## Reproduction
+
+Reproduction document.
 
 [Reproduction Document](/reproduction.md)
 
@@ -78,17 +82,17 @@ We randomly choose 20 photos from each category ,to check whether our process ha
 
 ## Display
 
-You can try your own photo to test whether it is considered as a dog or a cat.
+You can try to input your own photo and test whether it is considered as a dog or a cat.
 
 Open the **display_version.ipynb** and put your own photo of a cat or a dog.
 
 ```
-img=cv.imread('photo3.jpg',0)#change it to your photo name
+img=cv.imread('photo3.jpg',0) #change it to your own photo name
 ```
 
 Change the `photo3.jpg` to your own photo name.
 
-Run the code cell by cell and the followed cell will print the result.
+Then, run the code cell by cell. The cell below will print the result.
 
 ```
 #show result，dog is 0 and cat is 1
@@ -102,3 +106,57 @@ print(prediction)
 
 
 <img src="/mdpic/egg.jpg" alt="e" style="zoom:10%; float: left;" />
+
+
+
+--- 
+
+
+
+## References
+Datasets:
+
+https://www.kaggle.com/datasets/crawford/cat-dataset
+
+https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset
+
+https://www.kaggle.com/c/dogs-vs-cats
+
+https://www.kaggle.com/code/utkarshsaxenadn/catvsrabbit-classification-mobilenet-acc-100/input
+
+https://www.kaggle.com/competitions/dogs-vs-cats
+
+
+Techniques used:
+
+https://www.youtube.com/watch?v=WvoLTXIjBYU 
+
+https://github.com/CHNicelee/HOG_SVM
+
+http://t.csdn.cn/MnF6B 
+
+https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/
+
+https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
+
+https://arxiv.org/abs/1312.6229 
+
+https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001 
+https://b23.tv/8uak8EH 
+
+https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7
+
+https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point.
+
+https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f
+
+https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/ 
+
+
+Extra information in video:
+
+https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture
+
+https://www.fia.com/autonomous-vehicles
+
+https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well.
