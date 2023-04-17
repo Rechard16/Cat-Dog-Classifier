@@ -126,6 +126,7 @@ https://www.kaggle.com/code/utkarshsaxenadn/catvsrabbit-classification-mobilenet
 
 https://www.kaggle.com/competitions/dogs-vs-cats
 
+
 Techniques used:
 
 https://www.youtube.com/watch?v=WvoLTXIjBYU 
@@ -139,6 +140,18 @@ https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10
 https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
 
 https://arxiv.org/abs/1312.6229 
+
+https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001 
+https://b23.tv/8uak8EH 
+
+https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7
+
+https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point.
+
+https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f
+
+https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/ 
+
 
 Extra information in video:
 
