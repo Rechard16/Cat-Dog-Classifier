@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'rabbit' categories.
+Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories.
 
 
 
