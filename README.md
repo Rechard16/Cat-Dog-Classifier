@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories. We used techniques such as KNN and HOG-SVM machine learning techniques.
+Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories. We used machine learning techniques such as KNN and HOG.
 
 
 
