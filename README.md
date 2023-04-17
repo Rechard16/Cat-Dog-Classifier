@@ -2,79 +2,88 @@
 
 ## Introduction
 
-Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories. We used machine learning techniques such as KNN and HOG.
+Image classification is a machine learning problem that involves categorizing images based on their visual characteristics. In image classification, an algorithm learns to recognize patterns and features associated with each category and define the category of image. 
 
+Image classification has widespread applications in many fields, including facial recognition, object detection, medical imaging, and more.
 
+In our project, we choose a binary classification problem to classify whether the picture is more likely a cat or a dog.
 
----
-
-
-
-## EDA (Pre-processing)
-
-### 1) Data-cleansing
-
-Removed some abnormal data, including irrelevant data and misclassified data.
-
-### 2) Analysis of the size of photos and deciding how to best resize them
-
-We analysed the size of pictures.
-
-<img src="/mdpic/size_distribution_cat.png" alt="cat1" style="zoom:50%;" />
-
-cat height and weight distribution
-
-<img src="/mdpic/weight_height_cat.png" alt="weight_height_cat" style="zoom:50%;" />
-
-cat height and weight scatter plot
-
-<img src="/mdpic/size_distribution_dog.png" alt="dog" style="zoom:50%;" />
-
-dog height and weight distribution
-
-<img src="/mdpic/weight_height_dog.png" alt="weight_height_dog" style="zoom:50%;" />
-
-dog height and weight scatter plot
-
-We cropped the photos into size of 128*128 so that we can reduce the computing difficulty while preserving essential information of the previous photo file.
-
-### Data skewness
-
-We have 22497 cat pictures and  22786 dog pictures, which only have a 1.2% difference between them. 
-
-Thus, it is not necessary to process class imbalance.
-
-### Random selection of photos for checking
-
-We then randomly chose 20 photos from each category to check if our process has badly influenced our raw data set.
-
-#### Cat
-
-![cat](/mdpic/catsample.png)
-
-### Dog
-
-![dog](/mdpic/dogsample.png)
+We used a series of methods to solve this problem including traditional computer vision method like HOG and SIFT and novel method like CNN.
 
 ---
 
-## Methodology
+## Instruction and Document
+
+### EDA (Pre-processing)
+
+Exploratory data analysis and preprocess we do for data.
+
+[EDA&Preprocess Document](/EDA&Preprocess.md)
+
+### Methodology
 
 Machine learning techniques used.
 
 [Methodology Document](/methodology.md)
 
+### Reproduction
 
-
----
-
-## Reproduction
-
-Reproduction document.
+Tell you how to reproduce our project.
 
 [Reproduction Document](/reproduction.md)
 
 
+
+---
+
+## Best Model Performance
+
+| Metrics   | Train    | Test     |
+| --------- | -------- | -------- |
+| Accuracy  | 0.999614 | 0.940046 |
+| Precision | 1        | 0.950562 |
+| Recall    | 0.99922  | 0.929058 |
+| F1 score  | 0.99961  | 0.939687 |
+
+![CM](/mdpic/CNNcm.png)
+
+![ROC](/mdpic/CNNROC.png)
+
+---
+
+## Conclusion
+
+- Traditional models' performance may not relate to the size of data( the performances in small dataset and large one are similar.) But Neural Network's performance is obviously related to size of data.
+- CNN model performance is obviously better than the traditional method( maybe that is the reason why they become a `traditional` method).
+- The running time of traditional method is much more longer than the CNN model. Some of traditional methods have a time complexity of O(n^2).
+- Dropout and regulation can help to avoid over-fitting (our best model trained more than 3000 epochs and not over-fitting), but also may decrease the learning speed of model.
+- Use different types of kernels in a convolution layer can capture more useful features.
+- Data Argumentation does not always work, maybe the argumentation process lead to a bias of data.
+- Ensemble Learning can performance better than one single model, but not the under-fitting models. And it need to learn how to vote.
+
+
+
+---
+
+## What did we learn from this project?
+
+- Collaborating using GitHub
+
+- Use cmd commands to batch process files
+
+- Use Git to maintain the repository
+
+- Different feature description method, like SIFT and HOG
+
+- Machine learning algorithms, including KNN and SVM
+
+- Convolution Neural Network and its improvement
+
+-  Ensemble learning method
+
+- `steganographia` and `cryptography` (it might be strange but we use it to protect out originality)
+
+  
 
 ---
 
@@ -84,7 +93,9 @@ Reproduction document.
 
 You can try to input your own photo and test whether it is considered as a dog or a cat.
 
-Open the **display_version.ipynb** and put your own photo of a cat or a dog.
+You do not need to reproduce by yourself.
+
+Open the **Display/display_version.ipynb** and put your own photo of a cat or a dog.
 
 ```
 img=cv.imread('photo3.jpg',0) #change it to your own photo name
@@ -103,13 +114,15 @@ print(prediction)
 
 ---
 
+## Contributor
 
+@clintonluvs29 - data preparation&preprocess ,presentation vedio making
 
-<img src="/mdpic/egg.jpg" alt="e" style="zoom:10%; float: left;" />
+@kengle-18 - CNN, KNN
 
+@Rechard16 - traditional method, CNN improvement
 
-
---- 
+---
 
 
 
@@ -160,3 +173,7 @@ https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_comp
 https://www.fia.com/autonomous-vehicles
 
 https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well.
+
+---
+
+<img src="/mdpic/egg.jpg" alt="e" style="zoom:10%; float: left;" />
