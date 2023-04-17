@@ -16,6 +16,8 @@ We loaded the data, split it into train and test sets, and converted each image 
 
 Finally, we printed out the accuracy, confusion matrix, and classification report for each k value, and stored them in the accuracy, confusion matrix, and classification_report lists, respectively. We also used seaborn and pandas to visualize the results and summarize the performance of the KNN classifier.
 
+You can find more information through [KNN](/KNN part).
+
 
 
 ### Histogram of Oriented(HOG)
@@ -34,6 +36,8 @@ Next, we chose a subset of the training set to train the model due to limited co
 
 We computed the HOG features for each image in the training and test sets using the HOG descriptor and stored them in separate arrays. We then saved the HOG features as numpy arrays for future use.
 
+You can find more information through [HOG](/SVM part/HOG part).
+
 
 
 ### Scale-invariant feature transform(SIFT)
@@ -48,7 +52,7 @@ We created a SIFT object using the OpenCV SIFT_create() function and applied it 
 
 Finally, we saved the extracted SIFT features and labels as pickle files for future use. We also selected a subset of the training set for training the classifier, using a random permutation of the SIFT features and labels to ensure randomness.
 
-
+You can find more information through [SIFT](/SVM part/SIFT part).
 
 ### Support Vector Machine(SVM)
 
@@ -62,7 +66,7 @@ The function then fits the SVM model to the training data and makes predictions 
 
 The function is then called multiple times with different kernel types and regularization parameters to train and evaluate the SVM model on the same dataset. The performance of the SVM model is compared across different values of the kernel and C parameters. The results are printed out to the console and stored in the params dictionary object.
 
-
+You can find more information through [SVM](/SVM part).
 
 ## Neural Networks
 
@@ -77,6 +81,8 @@ Convolutional Neural Networks (CNNs) are a type of deep neural network that are 
 CNNs are composed of multiple layers, including convolutional layers, pooling layers, and fully connected layers. The convolutional layers use filters to extract features from the input images, while the pooling layers reduce the spatial size of the feature maps. The fully connected layers then use the extracted features to make predictions.
 
 The picture demonstrates the structure of our initial CNN(naive CNN).
+
+You can find more information through [CNN](/CNN part).
 
 #### Use different kernels in a convolution layer
 
@@ -99,3 +105,5 @@ We randomly choose part of dataset to vertical(horizontal) flip and rotate to ge
 We trained 10 models which use 80% train set for each model.
 
 And use the best model in `Different Kernel` part, voting for the result.
+
+You can find more information through [Ensemble Learning](/CNN part/Ensemble Learning).
