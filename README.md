@@ -82,7 +82,7 @@ Reproduction document.
 
 ## Display
 
-You can try your own photo to test whether it is considered as a dog or a cat.
+You can try to input your own photo and test whether it is considered as a dog or a cat.
 
 Open the **display_version.ipynb** and put your own photo of a cat or a dog.
 
