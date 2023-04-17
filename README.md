@@ -136,8 +136,6 @@ http://t.csdn.cn/MnF6B
 
 https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/
 
-https://www.analyticsvidhya.com/blog/2014/12/image-processing-python-basics/ 
-
 https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
 
 https://arxiv.org/abs/1312.6229 
