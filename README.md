@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories.
+Through image recognition of the image dataset, we hope to use Convolution Neural Network (CNN) to classify images into 'cat' and 'dog' categories. We used techniques such as KNN and HOG-SVM machine learning techniques.
 
 
 
@@ -22,7 +22,7 @@ We analysed the size of pictures.
 
 <img src="/mdpic/size_distribution_cat.png" alt="cat1" style="zoom:50%;" />
 
-cat height and weight distribution (boxplots)
+cat height and weight distribution
 
 <img src="/mdpic/weight_height_cat.png" alt="weight_height_cat" style="zoom:50%;" />
 
@@ -30,7 +30,7 @@ cat height and weight scatter plot
 
 <img src="/mdpic/size_distribution_dog.png" alt="dog" style="zoom:50%;" />
 
-dog height and weight distribution (boxplots)
+dog height and weight distribution
 
 <img src="/mdpic/weight_height_dog.png" alt="weight_height_dog" style="zoom:50%;" />
 
