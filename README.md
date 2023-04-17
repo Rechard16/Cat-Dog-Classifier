@@ -36,7 +36,7 @@ dog height and weight distribution
 
 dog height and weight scatter plot
 
-We cut the photos into size of 128*128 so that we can reduce the computing difficulty while preserving essential information of the previous photo file.
+We cropped the photos into size of 128*128 so that we can reduce the computing difficulty while preserving essential information of the previous photo file.
 
 ### Data skewness
 
