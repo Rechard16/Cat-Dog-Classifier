@@ -135,39 +135,25 @@ Datasets:
 
 [Dog Image Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)
 
-[CatvRabbit Classification](https://www.kaggle.com/code/utkarshsaxenadn/catvsrabbit-classification-mobilenet-acc-100/input)
+[CatvRabbit Image Dataset](https://www.kaggle.com/code/utkarshsaxenadn/catvsrabbit-classification-mobilenet-acc-100/input)
 
 
 
 Techniques used:
 
-[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU)
+[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU); [Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7); [Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/)
 
-[Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7)
-
-[Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/)
-
-[HOG technique](https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f)
-
-[HOG_SVM technique](https://github.com/CHNicelee/HOG_SVM)
+[HOG technique](https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f); [HOG_SVM technique](https://github.com/CHNicelee/HOG_SVM)
 
 [Explanation of KNN](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point)
 
-[Learning Deep Learning](https://b23.tv/8uak8EH) 
+[Deep Learning](https://b23.tv/8uak8EH) 
 
 Extra information in video:
 
-[Image Classification in Autonomous Vehicles](https://www.fia.com/autonomous-vehicles)
+[Autonomous Vehicles](https://www.fia.com/autonomous-vehicles); [Cameras](https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well); [Drones](https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture)
 
-[Image Classification in Cameras](https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well)
-
-[Imagae Classification in Drones](https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture)
-
-[2013 Kaggle DogvCat Competition](https://www.kaggle.com/c/dogs-vs-cats)
-
-[How Image Classification Came About](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/)
-
-[Pierre Sermanet CNN Paper](https://arxiv.org/abs/1312.6229)
+[How Image Classification Came About](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/); [2013 Kaggle DogvCat Competition](https://www.kaggle.com/c/dogs-vs-cats); [Pierre Sermanet CNN Paper](https://arxiv.org/abs/1312.6229)
 
 Images used:
 
