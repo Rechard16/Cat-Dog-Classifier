@@ -54,6 +54,7 @@ Tell you how to reproduce our project.
 ## Conclusion
 
 - Traditional models' performance may not relate to the size of data( the performances in small dataset and large one are similar.) But Neural Network's performance is obviously related to size of data.
+- The input with more information is more precise in model training.
 - CNN model performance is obviously better than the traditional method( maybe that is the reason why they become a `traditional` method).
 - The running time of traditional method is much more longer than the CNN model. Some of traditional methods have a time complexity of O(n^2).
 - Dropout and regulation can help to avoid over-fitting (our best model trained more than 3000 epochs and not over-fitting), but also may decrease the learning speed of model.
