@@ -116,7 +116,7 @@ print(prediction)
 
 ## Contributors
 
-@clintonluvs29 - data preparation&preprocess, video making
+@clintonluvs29 - data preprocess, video making
 
 @kengle-18 - CNN, KNN
 
@@ -151,7 +151,7 @@ Techniques used:
 
 Extra information in video:
 
-[Applications in Autonomous Vehicles](https://www.fia.com/autonomous-vehicles); [Cameras](https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well); [Drones](https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture)
+[Application in Autonomous Vehicles](https://www.fia.com/autonomous-vehicles); [Cameras](https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well); [Drones](https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture)
 
 [How Image Classification Came About](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/); [2013 Kaggle DogvCat Competition](https://www.kaggle.com/c/dogs-vs-cats); [Pierre Sermanet CNN Paper](https://arxiv.org/abs/1312.6229)
 
