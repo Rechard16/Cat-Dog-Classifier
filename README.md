@@ -114,13 +114,13 @@ print(prediction)
 
 ---
 
-## Contributor
-
-@clintonluvs29 - data preparation&preprocess ,presentation vedio making
+## Contributors
 
 @kengle-18 - CNN, KNN
 
 @Rechard16 - traditional method, CNN improvement
+
+@clintonluvs29 - data preparation&preprocess, presentation and video making
 
 ---
 
