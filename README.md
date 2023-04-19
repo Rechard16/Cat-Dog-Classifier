@@ -142,7 +142,7 @@ Datasets:
 
 Techniques used:
 
-[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU); [Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7); [Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/); [CNN](https://medium.com/intelligentmachines/convolutional-neural-network-and-regularization-techniques-with-tensorflow-and-keras-5a09e6e65dc7); [CNN2](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4); [CNN3](https://www.ibm.com/topics/convolutional-neural-networks)
+[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU); [Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7); [Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/); [CNN](https://medium.com/intelligentmachines/convolutional-neural-network-and-regularization-techniques-with-tensorflow-and-keras-5a09e6e65dc7); [More CNN](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4); [CNN in detail](https://www.ibm.com/topics/convolutional-neural-networks)
 
 [HOG technique](https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f); [HOG_SVM technique](https://github.com/CHNicelee/HOG_SVM); [About SVM](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/); [SIFT Technique](https://www.analyticsvidhya.com/blog/2019/10/detailed-guide-powerful-sift-technique-image-matching-python/) 
 
