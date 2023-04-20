@@ -86,7 +86,7 @@ You can find more information through [CNN](/CNN part).
 
 #### Use different kernels in a convolution layer
 
-<img src="/mdpic/difker.png" alt="difker" style="zoom:50%;" />
+![difker](/mdpic/difker2.jpg)
 
 
 
