@@ -54,6 +54,7 @@ Tell you how to reproduce our project.
 ## Conclusion
 
 - Traditional models' performance may not relate to the size of data( the performances in small dataset and large one are similar.) But Neural Network's performance is obviously related to size of data.
+- The input with more information is more precise in model training.
 - CNN model performance is obviously better than the traditional method( maybe that is the reason why they become a `traditional` method).
 - The running time of traditional method is much more longer than the CNN model. Some of traditional methods have a time complexity of O(n^2).
 - Dropout and regulation can help to avoid over-fitting (our best model trained more than 3000 epochs and not over-fitting), but also may decrease the learning speed of model.
@@ -141,13 +142,17 @@ Datasets:
 
 Techniques used:
 
-[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU); [Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7); [Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/)
+[Learning CNN](https://www.youtube.com/watch?v=WvoLTXIjBYU); [Understanding CNN](https://towardsdatascience.com/understand-the-architecture-of-cnn-90a25e244c7); [Tips on CNN Image Classification](https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/); [CNN](https://medium.com/intelligentmachines/convolutional-neural-network-and-regularization-techniques-with-tensorflow-and-keras-5a09e6e65dc7); [More CNN](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4); [CNN in detail](https://www.ibm.com/topics/convolutional-neural-networks)
 
-[HOG technique](https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f); [HOG_SVM technique](https://github.com/CHNicelee/HOG_SVM)
+[HOG technique](https://towardsdatascience.com/hog-histogram-of-oriented-gradients-67ecd887675f); [HOG_SVM technique](https://github.com/CHNicelee/HOG_SVM); [About SVM](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/); [SIFT Technique](https://www.analyticsvidhya.com/blog/2019/10/detailed-guide-powerful-sift-technique-image-matching-python/) 
 
 [Explanation of KNN](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point)
 
-[Deep Learning](https://b23.tv/8uak8EH) 
+[Deep Learning](https://b23.tv/8uak8EH); [Backpropagation](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd)
+
+[Ensemble Learning](https://www.inquirer.com/life/upbringing-teamwork-learning-together-20201227.html); [AUCROC Curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5) 
+
+
 
 Extra information in video:
 
@@ -155,9 +160,13 @@ Extra information in video:
 
 [How Image Classification Came About](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/); [2013 Kaggle Dog vs Cat Competition](https://www.kaggle.com/c/dogs-vs-cats); [Pierre Sermanet CNN Paper](https://arxiv.org/abs/1312.6229)
 
+
+
 Images used:
 
-[HOG technique](https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001)
+[Camera](https://snapshot.canon-asia.com/article/eng/how-to-maximise-your-cameras-vari-angle-monitor); [Cat](https://icatcare.org/advice/thinking-of-getting-a-cat/); [Dog](https://unsplash.com/s/photos/baby-dog); [CAPTCHA](https://stytch.com/blog/what-is-captcha/); [Turing test](https://www.techtarget.com/searchenterpriseai/definition/Turing-test); [HOG technique](https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001); [ReLu](https://www.semanticscholar.org/paper/Convexity-in-Image-Based-3D-Surface-Reconstruction-Kolev/b1df0cd796034ca9ba3bc018474e44ee60fd7855); [Padding](https://datahacker.rs/what-is-padding-cnn/); [Data Augmentation Cat](https://wikidocs.net/166068); [Easter egg](https://pngtree.com/so/easter-eggs)
+
+
 
 Others:
 
