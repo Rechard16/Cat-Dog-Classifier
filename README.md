@@ -128,6 +128,10 @@ print(prediction)
 
 
 ## References
+
+[Link to our video!](https://youtu.be/lzi8So_inkQ)
+
+
 Datasets:
 
 [Dog and Cat Image Dataset](https://www.kaggle.com/competitions/dogs-vs-cats)
@@ -154,7 +158,7 @@ Techniques used:
 
 
 
-Extra information in video:
+Information in video:
 
 [Application in Autonomous Vehicles](https://www.fia.com/autonomous-vehicles); [Cameras](https://computer.howstuffworks.com/internet/tips/facebook-photo-tags.htm#:~:text=The%20site%20can%20do%20this,does%20often%20work%20very%20well); [Drones](https://www.robotics247.com/article/precision_ai_raises_20m_for_drone_based_computer_vision_for_sustainable_agriculture)
 
@@ -164,7 +168,7 @@ Extra information in video:
 
 Images used:
 
-[Camera](https://snapshot.canon-asia.com/article/eng/how-to-maximise-your-cameras-vari-angle-monitor); [Cat](https://icatcare.org/advice/thinking-of-getting-a-cat/); [Dog](https://unsplash.com/s/photos/baby-dog); [CAPTCHA](https://stytch.com/blog/what-is-captcha/); [Turing test](https://www.techtarget.com/searchenterpriseai/definition/Turing-test); [HOG technique](https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001); [ReLu](https://www.semanticscholar.org/paper/Convexity-in-Image-Based-3D-Surface-Reconstruction-Kolev/b1df0cd796034ca9ba3bc018474e44ee60fd7855); [Padding](https://datahacker.rs/what-is-padding-cnn/); [Data Augmentation Cat](https://wikidocs.net/166068); [Easter egg](https://pngtree.com/so/easter-eggs)
+[Camera](https://snapshot.canon-asia.com/article/eng/how-to-maximise-your-cameras-vari-angle-monitor); [Cat](https://icatcare.org/advice/thinking-of-getting-a-cat/); [Dog](https://unsplash.com/s/photos/baby-dog); [CAPTCHA](https://stytch.com/blog/what-is-captcha/); [Turing test](https://www.techtarget.com/searchenterpriseai/definition/Turing-test); [HOG technique](https://www.researchgate.net/figure/HOG-calculation-a-gradients-in-a-cell-b-histogram-of-gradients_fig1_269074001); [ReLu](https://www.semanticscholar.org/paper/Convexity-in-Image-Based-3D-Surface-Reconstruction-Kolev/b1df0cd796034ca9ba3bc018474e44ee60fd7855); [Padding](https://datahacker.rs/what-is-padding-cnn/); [Data Augmentation Cat](https://wikidocs.net/166068); [Cat2](https://www.bbc.com/future/article/20230217-should-new-zealand-cats-be-kept-indoors); [Easter egg](https://pngtree.com/so/easter-eggs)
 
 
 
