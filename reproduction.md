@@ -1,5 +1,43 @@
 # Reproduction
 
+## Libraries
+
+Please check the compatibility between library versions.
+
+### File Process
+
+- os
+- pickle
+
+### Image Process
+
+- openCV
+- PIL
+
+### Data Process
+
+- numpy
+- pandas
+- random
+
+### Machine Learning
+
+- sklearn
+
+### Deep Learning
+
+- keras
+- tensorflow
+
+### Image Plot
+
+- matplotlib
+- seaborn
+
+---
+
+
+
 If you want to reproduce our result, please follow the steps below:
 
 Please make sure that the required files and the target program are in the same folder before running the program.
