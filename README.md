@@ -14,6 +14,8 @@ We used a series of methods to solve this problem including traditional computer
 
 ## Instruction and Document
 
+![general](/mdpic/general_structure.png)
+
 ### EDA (Pre-processing)
 
 Exploratory data analysis and preprocess we do for data.
