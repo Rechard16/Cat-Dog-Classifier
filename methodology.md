@@ -36,7 +36,7 @@ Next, we chose a subset of the training set to train the model due to limited co
 
 We computed the HOG features for each image in the training and test sets using the HOG descriptor and stored them in separate arrays. We then saved the HOG features as numpy arrays for future use.
 
-You can find more information through [HOG](/SVM part/HOG part).
+You can find more information through [HOG](/SVM%20part/HOG%20part).
 
 
 
@@ -52,7 +52,7 @@ We created a SIFT object using the OpenCV SIFT_create() function and applied it 
 
 Finally, we saved the extracted SIFT features and labels as pickle files for future use. We also selected a subset of the training set for training the classifier, using a random permutation of the SIFT features and labels to ensure randomness.
 
-You can find more information through [SIFT](/SVM part/SIFT part).
+You can find more information through [SIFT](/SVM%20part/SIFT%20part).
 
 ### Support Vector Machine(SVM)
 
@@ -66,7 +66,7 @@ The function then fits the SVM model to the training data and makes predictions 
 
 The function is then called multiple times with different kernel types and regularization parameters to train and evaluate the SVM model on the same dataset. The performance of the SVM model is compared across different values of the kernel and C parameters. The results are printed out to the console and stored in the params dictionary object.
 
-You can find more information through [SVM](/SVM part).
+You can find more information through [SVM](/SVM%20part).
 
 ## Neural Networks
 
@@ -82,7 +82,7 @@ CNNs are composed of multiple layers, including convolutional layers, pooling la
 
 The picture demonstrates the structure of our initial CNN(naive CNN).
 
-You can find more information through [CNN](/CNN part).
+You can find more information through [CNN](/CNN%20part).
 
 #### Use different kernels in a convolution layer
 
@@ -106,4 +106,4 @@ We trained 10 models which use 80% train set for each model.
 
 And use the best model in `Different Kernel` part, voting for the result.
 
-You can find more information through [Ensemble Learning](/CNN part/Ensemble Learning).
+You can find more information through [Ensemble%20Learning](/CNN part/Ensemble Learning).
