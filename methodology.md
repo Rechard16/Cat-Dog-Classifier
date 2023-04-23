@@ -16,7 +16,7 @@ We loaded the data, split it into train and test sets, and converted each image 
 
 Finally, we printed out the accuracy, confusion matrix, and classification report for each k value, and stored them in the accuracy, confusion matrix, and classification_report lists, respectively. We also used seaborn and pandas to visualize the results and summarize the performance of the KNN classifier.
 
-You can find more information through [KNN](/KNN part).
+You can find more information through [KNN](/./KNN part).
 
 
 
