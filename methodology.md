@@ -106,4 +106,4 @@ We trained 10 models which use 80% train set for each model.
 
 And use the best model in `Different Kernel` part, voting for the result.
 
-You can find more information through [Ensemble%20Learning](/CNN part/Ensemble Learning).
+You can find more information through [Ensemble Learning](/CNN%20part/Ensemble%20Learning).
