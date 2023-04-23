@@ -84,7 +84,7 @@ Tell you how to reproduce our project.
 
 -  Ensemble learning method
 
-- `steganographia` and `cryptography` (it might be strange but we use it to protect out originality)
+- `steganographia` and `cryptography` (it might be strange but we use it to protect our originality)
 
   
 
